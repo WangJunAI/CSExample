@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="动态对象.cs" />
+    <Compile Include="匿名对象.cs" />
     <Compile Include="可选参数.cs" />
+    <Compile Include="异步方法.cs" />
     <Compile Include="弱引用.cs" />
     <Compile Include="扩展方法.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

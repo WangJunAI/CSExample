@@ -25,6 +25,19 @@ namespace ConsoleApp1
             k.Run("顺序一致字符串",6,22.22f);
             k.Run(i:9,f:77.77f,str:"顺序不一致字符串");
 
+            ///匿名对象
+            匿名对象 n = new 匿名对象();
+            n.Run();
+
+
+            ///动态对象
+            动态对象 d = new 动态对象();
+            d.Run();
+
+            ///异步方法
+            异步方法 y = new 异步方法();
+            y.Run();
+
             Console.ReadKey();
         }
     }
