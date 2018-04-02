@@ -11,6 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var i = "http://data.10jqka.com.cn/ifmarket/getnewlh/code/000000/date/2017-11-22/rid/7/".Split(new string[] { "/"}, StringSplitOptions.RemoveEmptyEntries); 
+
             ///扩展方法
             Base1 b = new Base1();
             b.Base1_Method2();
