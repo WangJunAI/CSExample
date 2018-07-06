@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://vuejs.org/js/vue.js"></script>
+    <script src="JS/$Ajax.js"></script>
+    <script src="JS/VueCreator.js"></script>
+</head>
+<body>
+    <h3>JS请求数据绑定在容器内</h3>
+    <div id="app1">
+        {{ message }}
+        <p v-if="seen">{{seen}}</p>
+        <ul>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        VueCreator.ShowContentTo();
+    </script>
+</body>
+</html>
