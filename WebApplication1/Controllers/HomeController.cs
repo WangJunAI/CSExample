@@ -14,5 +14,14 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Test()
+        {
+            ViewBag.Title = "Home Test";
+
+            return View();
+        }
+
+
     }
 }
